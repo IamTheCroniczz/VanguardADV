@@ -92,13 +92,11 @@ p{
 	margin:0;
 }
 
-/* Header Styles
----------------------------------*/
-
 .header{
 	text-align:center;
-	background:url(../img/pw_maze_black_2X.png) left top repeat;
-	padding:280px 0;
+	background:url(/img/header.png) top left / cover no-repeat;
+	padding:100px 0;
+	
 }
 .logo{
 	width:500px;
@@ -591,7 +589,7 @@ border: 2px solid #fff;
 /* Talk Business
 ---------------------------------*/
 .business-talking{
-	background:url(../img/section-bg2.jpg) top center no-repeat;
+	background:url(/img/Sem\ nome\ \(1350\ x\ 250\ px\).png) top center no-repeat;
 	background-size:cover;
 	padding:60px 0 10px;
 	text-align:center;
@@ -867,4 +865,9 @@ border: 2px solid #fff;
 .delay-12s { 
 	animation-delay: 1.2s; 
 	-webkit-animation-delay: 1.2s; 
+}
+.onde{
+	color: #000000;
+	text-align: center;
+	height: 16;
 }
